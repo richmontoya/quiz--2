@@ -1,0 +1,41 @@
+Quiz #2
+
+ 1. local variable
+  instance variable
+  new instance object 
+  object user is using name getter instance method 
+  object user is using the name setter instance method,
+  resetting the object's name
+
+  2. module name plus code with end.
+  class Animal that includes name, plus code and end
+
+  3. A class variable is shared among the class
+  and begins with two @@ symbols.
+  An instance variable is not shared by the class
+  and it begins with one @ symbol.
+
+
+  4. attr_accessor is a shortcut that defines a class
+  getter and setter methods.
+
+  5. The class Dog is calling a class method called some_method.
+
+  6.  Subclassing is when the classes has a single inheritance. 
+    Mixing in modules is called composition and it is when classes has a relationship.
+    Can you call instance methods of the same class from other instance methods in that class?
+
+  7. class User
+       attr_accessor :name
+
+      def initialize(name)
+       self.name = name
+      end
+     end
+  
+  8. Yes, you can call instance methods of the same class from other methods in that class.
+
+  9. I use irb then pry gem to debug my code. I haven't used pry much.
+
+   
+
